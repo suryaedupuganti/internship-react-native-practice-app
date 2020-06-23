@@ -1,8 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native';
-export default function Welcome() {
+
+export const Welcome = () => {
     return (
         <Text>hello</Text>
     )
 
 }
+export default Welcome;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, Text, View } from 'react-native';
 
-export default function Movies() {
+export const Movies = () => {
     const [isLoading, setLoading] = useState(true);
     const [data, setData] = useState([]);
 
@@ -27,3 +27,4 @@ export default function Movies() {
         </View>
     );
 }
+export default Movies;
