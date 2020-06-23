@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Welcome from './Welcome';
-import Movies from './Movies';
+import Welcome from './src/components/Welcome';
+import Movies from './src/components/Movies';
 
 export default function App() {
   return (
