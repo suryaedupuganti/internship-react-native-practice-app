@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, Text, View } from 'react-native';
+import styles from './style';
 
 export const Movies = () => {
     const [isLoading, setLoading] = useState(true);
@@ -14,7 +15,7 @@ export const Movies = () => {
     }, []);
 
     return (
-        <View style={{ flex: 1, padding: 24 }}>
+        <View style={styles.container}>
             {isLoading ? <ActivityIndicator /> : (
                 <FlatList
                     data={data}

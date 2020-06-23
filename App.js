@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Welcome from './src/components/Welcome';
 import Movies from './src/components/Movies';
 
-export default function App() {
+export const App = () => {
   return (
     <View style={styles.container}>
       <Text>Welcome to the exouhsia 1 2 3 </Text>
@@ -21,3 +21,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+export default App;
