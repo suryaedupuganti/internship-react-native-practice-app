@@ -17,7 +17,7 @@ export const Movies = () => {
     return (
         <View style={styles.container}>
             {isLoading ? <ActivityIndicator /> : (
-                <FlatList
+                <FlatList style={styles.list}
                     data={data}
                     keyExtractor={({ id }, index) => id}
                     renderItem={({ item }) => (

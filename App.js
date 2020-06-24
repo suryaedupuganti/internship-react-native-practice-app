@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import Welcome from './src/components/Welcome';
 import Movies from './src/components/Movies';
+import Description from './src/components/Description';
 import styles from './App.style';
 
 export const App = () => {
@@ -10,6 +11,7 @@ export const App = () => {
       <Text>Welcome to the exouhsia 1 2 3 </Text>
       <Welcome></Welcome>
       <Movies></Movies>
+      <Description></Description>
     </View>
   );
 }
