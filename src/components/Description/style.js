@@ -3,6 +3,8 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     view: {
         height: 200,
+        backgroundColor: 'green',
+        padding: 5
 
 
     },
